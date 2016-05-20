@@ -1,0 +1,10 @@
+/* Propiedades globales de todo el proyecto */
+*{
+	padding: 0;
+	margin: 0;
+}
+header, section{
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+}
