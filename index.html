@@ -7,13 +7,20 @@
 		<link rel="stylesheet" type="text/css" href="css/miregalo.css">
 		<link rel="stylesheet" type="text/css" href="css/header.css">
 		<link rel="stylesheet" type="text/css" href="css/section.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,400italic,700' rel='stylesheet' type='text/css'>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
 	<body>
 		<header>
 			<div class="izquierda">
-				<div class="logo"><img src="img/logo.png"></div>
+				<div class="logo">
+					<img src="img/logo.png">
+				</div>
 				<div class="frase">
 					<img src="img/frase.png">
+				</div>
+				<div class="boton">
+					<button>VER MAS</button>
 				</div>
 			</div>
 			<div class="derecha">
@@ -30,8 +37,51 @@
 				</div>
 			</div>
 		</header>
-		<section>
-			<h1>Como Funciona</h1>
+		<section id="section">
+			<h1>COMO FUNCIONA</h1>
+			<div>
+				<div class="imagen-inf">
+					<img src="https://angular.io/resources/images/home/responsive-framework.svg">
+				</div>
+				<div class="texto-inf">
+					<h3>Piensa En Tres Regalos Que Desees</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco.</p>
+				</div>
+			</div>
+			<div>
+				<div class="texto-inf">
+					<h3>Busca A Tus Conocidos</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco.</p>
+				</div>
+				<div class="imagen-inf">
+					<img src="https://angular.io/resources/images/home/responsive-framework.svg">
+				</div>
+			</div>
+			<div>
+				<div class="imagen-inf">
+					<img src="https://angular.io/resources/images/home/responsive-framework.svg">
+				</div>
+				<div class="texto-inf">
+					<h3>Tus Conocidos Te Daran tu Regalo</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco.</p>
+				</div>
+			</div>
+			<aside class="resultado">
+				<h3>Tendras el &nbsp<strong>REGALO</strong>&nbsp Que Desees!</h3>
+			</aside>
 		</section>
+
+		<script>
+			$('button').click(function () {
+			    $('body').animate({ scrollTop: 667 },800);
+			});
+		</script>
+
 	</body>
 </html>

@@ -1,13 +1,14 @@
 /* Propiedades unicas de header */
 header{
 	height: 100vh;
+	background-color: #413C39;
 	background-image: url("../img/header.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
 	padding: 0px 100px;
 }
 
-.logo, .celular, .frase, .getiton{
+.logo, .celular, .frase, .getiton, .boton{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -18,23 +19,37 @@ header{
 	width: 57%;
 	height: 100%;
 	box-sizing: border-box;
-	padding: 70px 0px;
+	padding: 50px 0px;
 }
 .logo{
-	height: 45%;
+	height: 40%;
 }
 .logo img{
 	width: 100%;
 	max-width: 420px;
 }
 .frase{
-	height: 55%;
+	height: 50%;
 }
 .frase img{
 	width: 100%;
 	max-width: 400px; 
 }
+.boton{
+	height: 10%
+}
+.boton button{
+	border-style: none;
+	padding: 10px 20px;
+	outline: none;
+	cursor: pointer;
+	background-color: #61AF1C;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
 
+}
 /* Acomodamos y le dimos diseño a la columna derecha de header */
 .derecha{
 	width: 43%;
